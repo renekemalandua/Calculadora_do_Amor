@@ -1,0 +1,85 @@
+input{
+    width: 400px;
+    height: 30px;
+    background-color: pink;
+    font-size: 18px;
+    border-radius:10px;
+    border:none;
+    margin: 20px;
+    box-shadow: 0px 0px 5px 0.5px;
+}
+body{
+    background-color: rgb(223, 12, 82);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top:100px;
+    
+}
+.imagem{
+
+    background-image: url(cora1.png);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+.conteiner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px 0.5px;
+    border-radius:10px;
+
+}
+.resultado{
+    display:none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px 0.5px;
+    border-radius:10px;
+}
+.botao{
+    background-color:  rgb(223, 12, 82);
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 40px;
+    
+}
+h1{
+    color: whitesmoke;
+}
+.frase{
+    text-align: center;
+    width: 400px;
+    background-color: rgb(223, 12, 82);
+    color: whitesmoke;
+    font-size: 20px;
+    box-shadow: 0px 0px 5px 0.5px;
+    border-radius:10px;
+    padding: 10px;
+}
+.nomes{
+    background-color: rgb(223, 12, 82);
+    color: whitesmoke;
+    font-size: 30px;
+    box-shadow: 0px 0px 5px 0.5px;
+    border-radius:10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.valido{
+    display: none;
+    margin-top: -15px;
+    margin-left: -250px;
+    font-family:'Trebuchet MS';
+    font-size: medium;
+    color: #ffff;
+}
+.ShowPercent{
+    font-size: 50px;
+    margin-bottom: 3px;
+}
